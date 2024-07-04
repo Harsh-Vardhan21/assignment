@@ -5,57 +5,57 @@ const Background = () => {
   return (
     <div className="relative min-h-screen min-w-screen bg-white flex items-center justify-center overflow-hidden">
       <img
-        src="/src/assets/images/Polygon1.png"
+        src="/images/Polygon1.png"
         alt="Polygon 1"
         className="absolute w-[30%] h-[30%] top-[20%] left-[75%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon2.png"
+        src="/images/Polygon2.png"
         alt="Polygon 2"
         className="absolute w-[30%] h-[30%] top-[20%] left-[75%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon3.png"
+        src="/images/Polygon3.png"
         alt="Polygon 3"
         className="absolute w-[30%] h-[30%] top-[75%] left-[-15%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon4.png"
+        src="/images/Polygon4.png"
         alt="Polygon 4"
         className="absolute w-[30%] h-[30%] top-[50%] left-[35%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon5.png"
+        src="/images/Polygon5.png"
         alt="Polygon 5"
         className="absolute w-[30%] h-[30%] top-[35%] left-[-15%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon6.png"
+        src="/images/Polygon6.png"
         alt="Polygon 6"
         className="absolute w-[15%] h-[15%] top-[55%] left-[90%] transform rotate-[76.04deg]"
       />
       <img
-        src="/src/assets/images/Polygon7.png"
+        src="/images/Polygon7.png"
         alt="Polygon 7"
         className="absolute w-[30%] h-[30%] top-[90%] left-[50%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon8.png"
+        src="/images/Polygon8.png"
         alt="Polygon 8"
         className="absolute w-[10%] h-[10%] top-[5%] left-[30%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon9.png"
+        src="/images/Polygon9.png"
         alt="Polygon 9"
         className="absolute w-[10%] h-[10%] top-[60%] left-[40%] transform rotate-[124.7deg]"
       />
       <img
-        src="/src/assets/images/Polygon10.png"
+        src="/images/Polygon10.png"
         alt="Polygon 10"
         className="absolute w-[15%] h-[15%] top-[50%] left-[10%] transform rotate-[70.87deg]"
       />
       <img
-        src="/src/assets/images/Polygon11.png"
+        src="/images/Polygon11.png"
         alt="Polygon 11"
         className="absolute w-[10%] h-[10%] top-[35%] left-[75%] transform rotate-[70.87deg]"
       />
