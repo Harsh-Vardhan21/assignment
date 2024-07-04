@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { toast, Toaster } from 'react-hot-toast'; // Updated import for react-hot-toast
+import { toast, Toaster } from 'react-hot-toast';
 import { BsFillEyeFill } from "react-icons/bs";
 import { IoMdLock } from "react-icons/io";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -13,7 +13,7 @@ const Signup = () => {
     confirmPassword: ''
   });
   const [showPassword, setShowPassword] = useState(false);
-  const [isLoading, setIsLoading] = useState(false); // Loading state
+  const [isLoading, setIsLoading] = useState(false);
 
   const { fullName, email, password, confirmPassword } = formData;
 
@@ -27,11 +27,11 @@ const Signup = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true); // Start loading
+    setIsLoading(true);
 
     if (password !== confirmPassword) {
       toast.error('Passwords do not match');
-      setIsLoading(false); // Stop loading
+      setIsLoading(false);
       return;
     }
 
@@ -56,7 +56,7 @@ const Signup = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} className="relative bg-[rgba(39,41,30,0.14)] rounded-[20px] shadow-md w-[40%] max-w-[500px] min-w-[300px] h-[60%] max-h-[600px] min-h-[400px] flex flex-col items-center p-8 bg-[#F7F7F7]">
+    <form onSubmit={onSubmit} className="relative bg-[rgba(39,41,30,0.14)] rounded-tl-[70px] rounded-tr-[70px] rounded-br-[70px] rounded-bl-[70px] shadow-md w-[80%] max-w-[717px] max-h-full min-w-[300px] min-h-[400px] flex flex-col items-center p-8 overflow-auto">
       <h2 className="text-3xl font-bold mb-8">Signup</h2>
 
       <div className="w-full mb-6">
